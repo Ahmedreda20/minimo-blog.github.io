@@ -70,5 +70,9 @@ body::-webkit-scrollbar-thumb { background: #c7c7c7; border-radius: 100px; }
 .footer__container .social__media a { text-decoration: none; color: #121212; position: relative; width: 100%; height: 100%; display: block; font-size: 22px; display: flex; align-items: center; justify-content: center; }
 .footer__container .social__media a .fa { vertical-align: middle; }
 
+.err__container { position: fixed; top: 0; right: 0; left: 0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; }
+@media only screen and (max-width: 480px) { .err__container .err__img { width: 90%; } }
+
 body, input, button { font-family: 'Quicksand', sans-serif; }
 
+/*# sourceMappingURL=style.css.map */
